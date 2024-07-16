@@ -1,0 +1,25 @@
+{
+  "name": "@anothermeee/cli_no.guessinggame",
+  "version": "1.0.2 ",
+  "description": "This is a CLI based number guessing game",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "cli_no.guessinggame": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anothermeee/cli_no.guessinggame": "^1.0.2",
+    "inquirer": "^9.3.5"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
